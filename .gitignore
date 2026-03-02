@@ -1,0 +1,50 @@
+# =========================
+# Sistema Operativo: macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios de red o USB en macOS
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# =========================
+# Python y Entornos Virtuales
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Variables de Entorno
+# =========================
+.env
+.env.local
+.env.*
+
+# =========================
+# Base de Datos (DBeaver / PostgreSQL)
+# =========================
+.dbeaver/
+*.sql.bak
+*.backup
+*.dump
+*.log
